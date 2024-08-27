@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$font-1: "Montserrat", sans-serif;
+$color-1: #4f3422;
+$color-2: #fefdfb;
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-1;
+}

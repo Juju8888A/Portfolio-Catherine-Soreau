@@ -1,7 +1,19 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Illustration from "./pages/Illustration";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/illustrations" element={<Illustration />}></Route>
+        <Route path="*" element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;
+
