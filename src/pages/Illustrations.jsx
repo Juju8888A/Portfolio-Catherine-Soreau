@@ -3,7 +3,7 @@ import Header from "../components/Header/Header";
 import Content from "../components/Content/Content";
 import Footer from "../components/Footer/Footer";
 
-const Home = () => {
+const Illustration = () => {
   return (
     <div className="app-container">
       <Header />
@@ -13,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Illustration;

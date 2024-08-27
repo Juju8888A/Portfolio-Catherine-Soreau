@@ -5,12 +5,30 @@
 }
 
 $font-1: "Montserrat", sans-serif;
-$color-1: #4f3422;
-$color-2: #fefdfb;
+$color-1: #53195d;
+$color-2: #fefcff;
+$color-3: #f7def8;
+$color-4: #deade3;
+$color-5: #ab4aba;
+$color-6: #953ea3;
 
 .app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: $font-1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding: 200px 1rem 1rem;
 }
